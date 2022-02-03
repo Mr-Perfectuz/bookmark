@@ -1,3 +1,31 @@
+/* Font face  */
+@font-face {
+    font-family: 'Rubik';
+    src: url('/fonts/Rubik-Regular.woff2') format('woff2'),
+        url('/fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('/fonts/Rubik-Medium.woff2') format('woff2'),
+        url('/fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* Custom Props */
+:root{
+     --violet-color:#5267DF;
+     --deep-orange: #FA5959;
+     --black: #242A45;
+     --light-black: #9194A2;
+}
+
 /* Global  */
 
 html{
@@ -19,7 +47,7 @@ body{
      display: flex;
      font-size: 16px;
      line-height: 1.5 ;
-     font-family: "Arial", sans-serif;
+     font-family: "Rubik","Arial", sans-serif;
      flex-direction: column;
      height: 100%;
      background-color: #fff;
